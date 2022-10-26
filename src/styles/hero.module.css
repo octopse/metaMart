@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  box-shadow:  1px 2px 40px rgba(51, 51, 51, 0.1);
+  box-shadow:  0 38px 73.11px 0 #00000014;
   position: relative;
   height: 100%;
   width: 90%;
@@ -28,7 +28,7 @@
   width: 100%;
   border-radius: 1.25rem;
   padding: 2.375rem;
-  box-shadow:  1px 2px 40px rgba(51, 51, 51, 0.1);
+  box-shadow:  0px 20px 66px 0 #151F3708, 0 -2.17px 9.78px 0 #151F3708;
 }
 .hero_stats_title{
   margin: 0;
