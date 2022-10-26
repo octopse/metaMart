@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import './assets/fonts/SpaceGrotesk-VariableFont.ttf';
+import './assets/fonts/Euclid-Circular-A-Regular.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

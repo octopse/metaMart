@@ -1,11 +1,13 @@
 @font-face {
   font-family: "SpaceGrotesk";
-  src: local("SpaceGrotesk"), url("./assets/fonts/SpaceGrotesk-VariableFont.ttf") format("truetype")
+  src: local("SpaceGrotesk"), url("./assets/fonts/SpaceGrotesk-VariableFont.ttf") format("truetype");
+  font-family: "Euclid-Circular-A";
+  src: local("EuclidCircularA"), url("./assets/fonts/Euclid-Circular-A-Regular.ttf") format("truetype");
 }
 
 body {
   margin: 0;
-  font-family: "SpaceGrotesk", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "EuclidCircularA", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
