@@ -1,0 +1,11 @@
+.core_container{
+  background-image: url('../assets/img/Banner-BG.png');
+  /* background-color: #6B7280; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  width: 80%;
+  margin: 3rem auto;
+  padding: 4rem;
+
+}
