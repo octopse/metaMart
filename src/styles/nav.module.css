@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    color: #151F37;
+    margin-top: 2rem;
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+.nav_left_logo{
+    font-family: "SpaceGrotesk", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    border-right: 1px solid #6b728050;
+    padding-right: 2rem;
+}
+.nav_left_menu{
+    display: flex;
+    color: #6B7280;
+
+
+}
+.nav_left_menu_item{
+    margin-left: 2rem;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+}
+.nav_right > div{
+    margin-left: 1.125rem;
+}
+.nav_right_connectwallet{
+    background-color: #151F37;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+}
