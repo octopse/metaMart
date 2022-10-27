@@ -3,9 +3,26 @@
   /* background-color: #6B7280; */
   background-repeat: no-repeat;
   background-size: contain;
-  height: 1000px;
+  /* height: 1000px; */
   width: 80%;
   margin: 3rem auto;
   padding: 4rem;
+  display: flex;
+  position: relative;
+}
 
+.core_badge{
+  position: absolute;
+  top: 31rem;
+  right: 5%;
+  animation: rotation 16s ease alternate infinite;
+  transition: animation ease 1s;
+}
+.core_badge:hover{
+  animation-duration: 9999s;
+}
+
+@keyframes rotation {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
 }
