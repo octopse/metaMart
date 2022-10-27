@@ -15,8 +15,10 @@ function Nav() {
       </div>
       <div className={style.nav_right}>
         <FiSearch style={{color: '#6B7280', fontSize: '22px', cursor: 'pointer'}}/>
-        {/* the toggle */}
-        <div className={style.nav_right_connectwallet}>Connect Wallet</div>
+        <div> 
+
+        </div>
+        <button className={style.nav_right_connectwallet}>Connect Wallet</button>
       </div>
     </nav>
   </header>
