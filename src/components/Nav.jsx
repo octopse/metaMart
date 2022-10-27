@@ -16,9 +16,12 @@ function Nav() {
       <div className={style.nav_right}>
         <FiSearch style={{color: '#6B7280', fontSize: '22px', cursor: 'pointer'}}/>
         <div> 
-
+          <label class={style.switch}>
+              <input type="checkbox" />
+              <span class={style.slider}></span>
+          </label>
         </div>
-        <button className={style.nav_right_connectwallet}>Connect Wallet</button>
+        <div className={style.nav_right_connectwallet}>Connect Wallet</div>
       </div>
     </nav>
   </header>
