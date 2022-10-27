@@ -21,11 +21,13 @@
 .nav_left_menu{
     display: flex;
     color: #6B7280;
-
-
 }
 .nav_left_menu_item{
     margin-left: 2rem;
+    cursor: pointer;
+}
+.nav_left_menu_item:hover{
+    color: #2e333f;
 }
 .nav_right{
     display: flex;
@@ -39,4 +41,8 @@
     color: #fff;
     padding: 1rem;
     border-radius: 8px;
+    cursor: pointer;
+}
+.nav_right_connectwallet:hover{
+    background-color: #22335a;
 }
