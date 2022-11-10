@@ -39,11 +39,32 @@
   font-size: 1rem;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  
+  height:fit-content;
 }
 .rightcore_button:hover{
   box-shadow: 0 9px 28px 0 #ffc14585;
   background-color: #fcb72d;
+}
+.rightcore_btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightcore_badge{
+  display: none;
+  animation: rotation 16s ease alternate infinite;
+  transition: animation ease 1s;
+  width: 4rem;
+  height: auto;
+}
+.rightcore_badge:hover{
+  animation-duration: 9999s;
+}
+
+@keyframes rotation {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
 }
 
 .rightcore_startforyou{
@@ -71,7 +92,7 @@
   position: absolute;
   top: 40%;
   left: 0;
-  width: 110%;
+  width: 106%;
   height: 0.75rem;
   background-color: #D6F379;
   color: #D6F379;
@@ -79,4 +100,39 @@
 .rightcore_startforyou_items_text{
   color: #6B7280;
   margin-top: -0.25rem;
+}
+
+@media screen and (max-width: 1170px) {
+  .rightcore{
+    width: 100%;
+  }
+  .rightcore_container{
+    padding: 0 1.875rem;
+  }
+  .rightcore_title{
+    color: #151F37;
+  }
+
+}
+@media screen and (max-width: 990px) {
+  .rightcore_startforyou{
+    margin-top: 4rem ;
+  }
+  .rightcore_badge{
+    display: flex;
+  }
+
+}
+@media screen and (max-width: 640px) {
+  .rightcore_startforyou_items{
+    flex-direction: column;
+  }
+  .rightcore_startforyou_items_container{
+    width: fit-content;
+  }
+  .rightcore_startforyou_items div:nth-child(2){
+    align-self: flex-end;
+  }
+
+
 }

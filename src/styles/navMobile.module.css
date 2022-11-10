@@ -1,0 +1,43 @@
+.nav{
+    display: none;
+    justify-content: space-between;
+    padding: 0 3.875rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-bottom: 1px solid #6b728050;
+    padding-bottom: 1rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
+    gap: 6px;
+}
+
+.menu span{
+    height: 5px;
+    width: 40px;
+    background-color: #D1D5DB;
+    border-radius: 4px;
+}
+.menu:hover span{
+    background-color: #151F37;
+}
+.menu span:last-child{
+    width: 20px;
+}
+
+.nav_logo{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 896px)  {
+    .nav{
+        display: flex;
+    }
+}
