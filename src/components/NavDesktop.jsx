@@ -1,4 +1,5 @@
 import styles from '../styles/NavDesktop.module.css';
+import Toggle from './Toggle';
 import { FiSearch } from "react-icons/fi";
 
 function NavDesktop() {
@@ -15,12 +16,7 @@ function NavDesktop() {
       </div>
       <div className={styles.nav_right}>
         <FiSearch styles={{color: '#6B7280', fontSize: '22px', cursor: 'pointer'}}/>
-        <div> 
-          <label class={styles.switch}>
-              <input type="checkbox" />
-              <span class={styles.slider}></span>
-          </label>
-        </div>
+        <Toggle />
         <div className={styles.nav_right_connectwallet}>Connect Wallet</div>
       </div>
     </nav>
