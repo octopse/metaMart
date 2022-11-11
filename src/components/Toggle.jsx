@@ -1,5 +1,4 @@
 import styles from '../styles/toggle.module.css';
-import { FiSearch } from "react-icons/fi";
 
 function Toggle() {
   return (

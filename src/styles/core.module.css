@@ -39,10 +39,19 @@
 @media screen and (max-width: 990px){
   .core_container{
     flex-direction: column-reverse;
+    padding: 0;
     height: auto;
   }
   .core_badge{
     display: none;
+  }
+
+}
+@media screen and (max-width: 896px){
+  .core_container{
+    flex-direction: column-reverse;
+    padding-top: 5rem;
+    height: auto;
   }
 
 }
